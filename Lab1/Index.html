@@ -2,19 +2,94 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8" />
-    <h1>Oleksandr Filenkov</h1>
-    <h2>Student
-        <b>WSIiZ</b>
-    </h2>
-    <h3>Favorite Games</h3>
-    <ol>
-        <li><a href="https://www.minecraft.net/pl-pl">Minecraft</a></li>
-        <li><a href="https://store.steampowered.com/app/1245620/ELDEN_RING/">Elden Ring</a></li>
-    </ol>
-
-
-<title>Information</title>
+<title>Oleksandr Filenkov</title>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
 </head>
 <body>
+    <header>
+        <h1>Oleksandr Filenkov</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="favorite_series.html">Favorite Series</a></li>
+                <li><a href="favorite_books.html">Favorite Books</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Student <b>WSIiZ</b></h2>
+        <p><i>My name is Oleksandr and I love music, fantasy, and playing video games. Studying Informatics at WSIiZ.</i></p>
+    </section>
+
+    <section id="games">
+        <h3>Favorite Games</h3>
+        <ol>
+            <li><a href="https://www.minecraft.net/pl-pl">Minecraft</a></li>
+            <li><a href="https://store.steampowered.com/app/1245620/ELDEN_RING/">Elden Ring</a></li>
+            <li><a href="https://store.steampowered.com/app/570/Dota_2/">Dota 2</a></li>
+        </ol>
+    </section>
+
+    <section id="learning">
+        <h4>Learning</h4>
+        <table>
+            <tr>
+                <th>Years</th>
+                <th>Schools/Universities</th>
+            </tr>
+            <tr>
+                <td>2023 - now</td>
+                <td>WSIiZ</td>
+            </tr>
+            <tr>
+                <td>2012 - 2023</td>
+                <td>Криворізький ліцей академічного спрямування "Міжнародні перспективи"КМР</td>
+            </tr>
+        </table>
+    </section>
+
+    <aside>
+        <article>
+            <h5>Zad 5</h5>
+            <table style="width:100px;height: 100px;">
+                <tr>
+                    <th></th>
+                    <th rowspan="2"></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tbody>
+                    <tr>  
+                        <td></td>
+                        <td colspan="2" rowspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2506988911">
+                <img src="Ghibli.jpg" alt="Ghibli Studios Image" width="1000" height="600">  
+            </a>
+        </article>
+    </aside>
+
+    <footer>
+        <hr>
+        <p>Contact: oleksandr.filenkov@example.com</p>
+    </footer>
 </body>
 </html>
