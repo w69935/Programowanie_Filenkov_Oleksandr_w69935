@@ -1,4 +1,14 @@
 
+window.onload = displayClock();
+function displayClock(){
+  let display = new Date().toLocaleTimeString();
+  document.getElementById('Time').innerHTML =  display;
+  setTimeout(displayClock, 1000); 
+}
+
+
+
+
 const randomNumber = Math.floor(Math.random() * 101);
 
 let attempts = 0;
@@ -30,3 +40,4 @@ function checkGuess() {
 }
 
 document.getElementById("checkButton").addEventListener("click", checkGuess);
+
