@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Background Color and Toggle Element Visibility</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button id="button1">Button 1</button>
+  <button id="button2">Button 2</button>
+  <button id="button3">Button 3</button>
+  <button id="button4"><a href="calc.html">Calculator</a></button>
+  <button id="toggleButton">Toggle Element</button>
+
+  <div id="elementToToggle">
+    This is the element to toggle visibility.
+  </div>
+
+  <input type="text" id="itemInput" placeholder="Enter item...">
+  <button id="addItemButton">Add Item</button>
+  <ul id="itemList"></ul>
+
+  <input type="text" id="firstNameInput" placeholder="Imię">
+  <input type="text" id="lastNameInput" placeholder="Nazwisko">
+  <button id="addPersonButton">Add Person</button>
+  
+  <table id="peopleTable">
+    <thead>
+      <tr>
+        <th>Imię</th>
+        <th>Nazwisko</th>
+      </tr>
+    </thead>
+    <tbody id="peopleTableBody">
+    </tbody>
+  </table>
+  <div class="converter">
+    <h1>Konwerter Temperatury</h1>
+    <label for="celsius">Stopnie Celsjusza:</label>
+    <input type="number" id="celsius" placeholder="Wpisz temperaturę">
+    <button onclick="convertToCelsius()">Przelicz na °C</button>
+    <p id="celsiusResult"></p>
+
+    <label for="fahrenheit">Stopnie Fahrenheita:</label>
+    <input type="number" id="fahrenheit" placeholder="Wpisz temperaturę">
+    <button onclick="convertToFahrenheit()">Przelicz na °F</button>
+    <p id="fahrenheitResult"></p>
+  </div>
+  <div class="gcd-calculator">
+    <h1>Największy Wspólny Dzielnik</h1>
+    <label for="number1">Liczba 1:</label>
+    <input type="number" id="number1" placeholder="Wpisz pierwszą liczbę">
+
+    <label for="number2">Liczba 2:</label>
+    <input type="number" id="number2" placeholder="Wpisz drugą liczbę">
+
+    <button onclick="calculateGCD()">Oblicz Największy Wspólny Dzielnik</button>
+    
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
